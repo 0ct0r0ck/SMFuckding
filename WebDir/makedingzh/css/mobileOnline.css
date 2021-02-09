@@ -27,7 +27,7 @@
     content: '';
     width: 2.933rem;
     height: 0.747rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/logo.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/logo.png') no-repeat center center;
     background-size: 100%;
     top: 0.2rem;
     left: 0.4rem;
@@ -104,7 +104,7 @@
     display: block;
     width: 0.533rem;
     height: 0.533rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_menu.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_menu.png') no-repeat center center;
     background-size: cover;
     transition: all 0.2s;
     position: absolute;
@@ -113,7 +113,7 @@
     z-index: 9;
   }
   header .content .menu.open {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_menu_close.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_menu_close.png') no-repeat center center;
   }
   header .content .menu.open + .layui-nav {
     display: block !important;
@@ -143,7 +143,7 @@
     content: '';
     width: 2.507rem;
     height: 0.627rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_logo.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_logo.png') no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -237,12 +237,11 @@
     max-width: 767px;
     min-width: 320px;
     height: 14.27rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_idx_banner_v2.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_idx_banner.png') no-repeat center center;
     background-size: 100% 100%;
     margin-top: 1.333rem;
   }
   .idx_m1 .content {
-    display: none;
     width: 100%;
     line-height: 1.6rem;
     font-size: 1.147rem;
@@ -356,7 +355,7 @@
     max-width: 767px;
     min-width: 320px;
     height: 15.6rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_idx_number.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_idx_number.png') no-repeat center center;
     background-size: 100%;
   }
   .idx_m4 .content {
@@ -460,7 +459,7 @@
     max-width: 767px;
     min-width: 320px;
     height: 4.8rem;
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_banner.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_banner.png') no-repeat center center;
     background-size: 100%;
     margin-top: 1.333rem;
   }
@@ -513,25 +512,25 @@
     background-size: cover !important;
   }
   .prod_main .content .cateTitle:nth-of-type(1) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg1.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg1.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(2) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg2.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg2.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(3) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg3.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg3.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(4) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg4.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg4.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(5) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg5.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg5.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(6) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg6.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg6.png') no-repeat center center;
   }
   .prod_main .content .cateTitle:nth-of-type(7) {
-    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg7.png') no-repeat center center;
+    background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg7.png') no-repeat center center;
   }
   .prod_main .content .wrapper {
     padding: 0.667rem 0;
@@ -956,7 +955,7 @@
     right: -7px;
   }
   .about-dashiji .bg_line {
-    background: url('//pic.mairuan.com/WebSource/minitab/web/images/line.png') repeat-y center center;
+    background: url('https://pic.mairuan.com/WebSource/minitab/web/images/line.png') repeat-y center center;
   }
   .about-dashiji .year {
     text-align: center;
