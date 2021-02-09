@@ -1,0 +1,1684 @@
+.layui-col-xs1,
+.layui-col-xs10,
+.layui-col-xs11,
+.layui-col-xs12,
+.layui-col-xs2,
+.layui-col-xs3,
+.layui-col-xs4,
+.layui-col-xs5,
+.layui-col-xs6,
+.layui-col-xs7,
+.layui-col-xs8,
+.layui-col-xs9 {
+  float: left;
+}
+.layui-col-xs1 {
+  width: 8.33333333%;
+}
+.layui-col-xs2 {
+  width: 16.66666667%;
+}
+.layui-col-xs3 {
+  width: 25%;
+}
+.layui-col-xs4 {
+  width: 33.33333333%;
+}
+.layui-col-xs5 {
+  width: 41.66666667%;
+}
+.layui-col-xs6 {
+  width: 50%;
+}
+.layui-col-xs7 {
+  width: 58.33333333%;
+}
+.layui-col-xs8 {
+  width: 66.66666667%;
+}
+.layui-col-xs9 {
+  width: 75%;
+}
+.layui-col-xs10 {
+  width: 83.33333333%;
+}
+.layui-col-xs11 {
+  width: 91.66666667%;
+}
+.layui-col-xs12 {
+  width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .layui-col-lg1,
+  .layui-col-lg10,
+  .layui-col-lg11,
+  .layui-col-lg12,
+  .layui-col-lg2,
+  .layui-col-lg3,
+  .layui-col-lg4,
+  .layui-col-lg5,
+  .layui-col-lg6,
+  .layui-col-lg7,
+  .layui-col-lg8,
+  .layui-col-lg9 {
+    float: left;
+  }
+  .layui-col-lg1 {
+    width: 8.33333333%;
+  }
+  .layui-col-lg2 {
+    width: 16.66666667%;
+  }
+  .layui-col-lg3 {
+    width: 25%;
+  }
+  .layui-col-lg4 {
+    width: 33.33333333%;
+  }
+  .layui-col-lg5 {
+    width: 41.66666667%;
+  }
+  .layui-col-lg6 {
+    width: 50%;
+  }
+  .layui-col-lg7 {
+    width: 58.33333333%;
+  }
+  .layui-col-lg8 {
+    width: 66.66666667%;
+  }
+  .layui-col-lg9 {
+    width: 75%;
+  }
+  .layui-col-lg10 {
+    width: 83.33333333%;
+  }
+  .layui-col-lg11 {
+    width: 91.66666667%;
+  }
+  .layui-col-lg12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .layui-col-sm1,
+  .layui-col-sm10,
+  .layui-col-sm11,
+  .layui-col-sm12,
+  .layui-col-sm2,
+  .layui-col-sm3,
+  .layui-col-sm4,
+  .layui-col-sm5,
+  .layui-col-sm6,
+  .layui-col-sm7,
+  .layui-col-sm8,
+  .layui-col-sm9 {
+    float: left;
+  }
+  .layui-col-sm1 {
+    width: 8.33333333%;
+  }
+  .layui-col-sm2 {
+    width: 16.66666667%;
+  }
+  .layui-col-sm3 {
+    width: 25%;
+  }
+  .layui-col-sm4 {
+    width: 33.33333333%;
+  }
+  .layui-col-sm5 {
+    width: 41.66666667%;
+  }
+  .layui-col-sm6 {
+    width: 50%;
+  }
+  .layui-col-sm7 {
+    width: 58.33333333%;
+  }
+  .layui-col-sm8 {
+    width: 66.66666667%;
+  }
+  .layui-col-sm9 {
+    width: 75%;
+  }
+  .layui-col-sm10 {
+    width: 83.33333333%;
+  }
+  .layui-col-sm11 {
+    width: 91.66666667%;
+  }
+  .layui-col-sm12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .layui-col-md1,
+  .layui-col-md10,
+  .layui-col-md11,
+  .layui-col-md12,
+  .layui-col-md2,
+  .layui-col-md3,
+  .layui-col-md4,
+  .layui-col-md5,
+  .layui-col-md6,
+  .layui-col-md7,
+  .layui-col-md8,
+  .layui-col-md9 {
+    float: left;
+  }
+  .layui-col-md1 {
+    width: 8.33333333%;
+  }
+  .layui-col-md2 {
+    width: 16.66666667%;
+  }
+  .layui-col-md3 {
+    width: 25%;
+  }
+  .layui-col-md4 {
+    width: 33.33333333%;
+  }
+  .layui-col-md5 {
+    width: 41.66666667%;
+  }
+  .layui-col-md6 {
+    width: 50%;
+  }
+  .layui-col-md7 {
+    width: 58.33333333%;
+  }
+  .layui-col-md8 {
+    width: 66.66666667%;
+  }
+  .layui-col-md9 {
+    width: 75%;
+  }
+  .layui-col-md10 {
+    width: 83.33333333%;
+  }
+  .layui-col-md11 {
+    width: 91.66666667%;
+  }
+  .layui-col-md12 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .layui-hide-xs {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .layui-hide-sm {
+    display: none !important;
+  }
+}
+header {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 65px;
+  margin: 0px auto;
+  border-bottom: 1px solid #f2f3f4;
+}
+header .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+header .content h1 {
+  display: inline-block;
+  height: 31px;
+  font-size: 12px;
+  padding-top: 16px;
+  padding-left: 44px;
+  margin-top: 6px;
+  vertical-align: middle;
+  position: relative;
+}
+header .content h1::after {
+  content: '';
+  width: 122px;
+  height: 31px;
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/logo.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: -2px;
+  left: 0;
+}
+header .content .layui-nav {
+  display: inline-block;
+  background-color: transparent;
+  padding: 0;
+  margin: 5px 0 0 54px;
+  color: #292f39;
+}
+header .content .layui-nav .layui-nav-item {
+  padding: 0;
+  margin-left: 12px;
+}
+header .content .layui-nav .layui-nav-item.layui-this::after {
+  display: none;
+}
+header .content .layui-nav .layui-nav-item.layui-this a {
+  color: #fd692c;
+  font-weight: bold;
+}
+header .content .layui-nav .layui-nav-item a {
+  font-size: 16px;
+  color: #292f39;
+}
+header .content .layui-nav .layui-nav-item a:hover {
+  color: #292f39;
+}
+header .content .layui-nav .layui-nav-item .layui-nav-child {
+  top: 60px;
+}
+header .content .layui-nav .list span {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: all 0.5s;
+}
+header .content .layui-nav .list .rotate {
+  transform: rotate(180deg);
+}
+header .content .layui-nav .layui-this dd a {
+  color: #292f39 !important;
+  font-weight: normal !important;
+}
+header .content .layui-nav .layui-this dd.layui-this {
+  background-color: transparent;
+}
+header .content .layui-nav .layui-this dd.layui-this a {
+  color: #fd692c !important;
+}
+header .content .layui-nav .layui-nav-more {
+  border-color: #292f39 transparent transparent;
+}
+header .content .layui-nav .layui-nav-bar {
+  background-color: transparent;
+}
+header .content .language {
+  text-align: right;
+}
+header .content .language label {
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+  vertical-align: middle;
+}
+header .content .language ul {
+  margin-left: 0;
+  vertical-align: middle;
+}
+header .content .language ul li {
+  margin-left: 0 !important;
+  text-align: center;
+}
+header .content .menu {
+  display: none;
+}
+.layui-nav .layui-nav-child dd.layui-this a,
+.layui-nav-child dd.layui-this {
+  background-color: transparent;
+}
+footer {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  background-color: #161a1f;
+}
+footer .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 40px 0 50px;
+}
+footer .content .logo {
+  color: #ec6517;
+  vertical-align: middle;
+}
+footer .content .logo img {
+  margin-right: 10px;
+}
+footer .content .copyright {
+  margin-top: 35px;
+  color: #636e7d;
+}
+footer .content .copyright a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #636e7d;
+}
+footer .content .copyright a:hover {
+  color: #fd692c;
+}
+footer .content .middle {
+  text-align: left;
+}
+footer .content .middle a {
+  font-size: 16px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+  padding: 0 20px;
+}
+footer .content .middle a:nth-child(-n+2) {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer .content .right {
+  color: white;
+}
+footer .content .right > div {
+  text-align: right;
+}
+footer .content .right .item {
+  width: 160px;
+  text-align: left;
+}
+footer .content .right label {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+footer .content .right ul {
+  margin-top: 10px;
+}
+footer .content .right ul li {
+  font-size: 14px;
+  line-height: 24px;
+}
+footer .content .right ul li a {
+  color: white;
+}
+.static-fixed-height {
+  display: none;
+}
+.static-mr-common {
+  display: none;
+}
+.idx_m1 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  height: 710px;
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_banner.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+.idx_m1 .content {
+  width: 1200px;
+  line-height: 126px;
+  margin: 0px auto;
+  color: white;
+  font-size: 86px;
+  padding-top: 80px;
+}
+.idx_m1 .bottom {
+  width: 1360px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.idx_m1 .bottom > div {
+  width: 453px;
+  height: 130px;
+  padding: 25px 0px 0 60px;
+  color: white;
+  line-height: 26px;
+}
+.idx_m1 .bottom > div .title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.idx_m1 .bottom > div .desc {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.idx_m1 .bottom .left {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_banner1.png') no-repeat center center;
+}
+.idx_m1 .bottom .middle {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_banner2.png') no-repeat center center;
+}
+.idx_m1 .bottom .right {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_banner3.png') no-repeat center center;
+}
+.idx_m2 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.idx_m2 .content {
+  width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  color: #292f39;
+  padding: 108px 0 120px;
+}
+.idx_m2 .content h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.idx_m2 .content .desc {
+  width: 66%;
+  margin: 30px auto 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.idx_m2 .content a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2376e5;
+  margin-top: 34px;
+}
+.idx_m3 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  padding-bottom: 120px;
+  background-color: rgba(241, 244, 247, 0.5);
+}
+.idx_m3 .content {
+  width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 85px 0 50px;
+}
+.idx_m3 .content h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.idx_m3 .content .desc {
+  width: 66%;
+  margin: 30px auto 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.idx_m3 .content a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2376e5;
+  margin-top: 34px;
+}
+.idx_m3 .scroll {
+  height: 500px;
+  background-color: transparent;
+}
+.idx_m3 .scroll .item {
+  display: inline-block;
+  width: 374px;
+  height: 460px;
+  margin-left: 20px;
+  position: relative;
+}
+.idx_m3 .scroll .item .wrapper {
+  width: 360px;
+  height: 45%;
+  background-color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 70px 45px 0;
+  position: absolute;
+  left: 7px;
+  bottom: 0;
+}
+.idx_m3 .scroll .item .wrapper .icon {
+  width: 20%;
+  position: absolute;
+  top: -20%;
+  left: 10%;
+}
+.idx_m3 .scroll .item .wrapper .title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #292f39;
+}
+.idx_m3 .scroll .item .wrapper .desc {
+  width: 100%;
+  font-size: 20px;
+  line-height: 26px;
+  color: #292f39;
+  margin-top: 30px;
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.idx_m3 .scroll .item:nth-of-type(1) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg1.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(2) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg2.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(3) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg3.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(4) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg4.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(5) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg5.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(6) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg6.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(7) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg7.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(8) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg8.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(9) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg9.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(10) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg10.png') no-repeat top center;
+}
+.idx_m3 .scroll .item:nth-of-type(11) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_product_bg11.png') no-repeat top center;
+}
+.idx_m4 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  height: 500px;
+  margin: 0px auto;
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/idx_number.png') no-repeat center center;
+  background-size: cover;
+}
+.idx_m4 .content {
+  width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  color: white;
+  padding-top: 90px;
+}
+.idx_m4 .content h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.idx_m4 .content .desc {
+  width: 66%;
+  margin: 18px auto 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+.idx_m4 .content .main {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 90px;
+  padding: 0 50px;
+}
+.idx_m4 .content .main .top {
+  font-size: 42px;
+}
+.idx_m4 .content .main .title {
+  font-size: 32px;
+  margin-top: 20px;
+}
+.idx_m5 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.idx_m5 .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 106px;
+  padding-bottom: 120px;
+}
+.idx_m5 .content h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #292f39;
+  text-align: center;
+}
+.idx_m5 .content .category {
+  text-align: center;
+  margin-top: 20px;
+}
+.idx_m5 .content .category li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.idx_m5 .content .category li.active {
+  position: relative;
+}
+.idx_m5 .content .category li.active::after {
+  content: '';
+  width: 110%;
+  height: 6px;
+  background-color: #fd692c;
+  position: absolute;
+  bottom: 0;
+  left: -5%;
+  z-index: -1;
+}
+.idx_m5 .content .main {
+  margin-top: 60px;
+}
+.idx_m5 .content .main > div {
+  display: flex;
+  justify-content: space-between;
+}
+.idx_m5 .content .main > div .item {
+  flex: 1;
+}
+.idx_m5 .content .main > div .item:nth-of-type(1) {
+  text-align: left;
+}
+.idx_m5 .content .main > div .item:nth-of-type(1) .title,
+.idx_m5 .content .main > div .item:nth-of-type(1) .desc,
+.idx_m5 .content .main > div .item:nth-of-type(1) .time {
+  padding-left: 0;
+}
+.idx_m5 .content .main > div .item:nth-of-type(2) {
+  text-align: center;
+}
+.idx_m5 .content .main > div .item:nth-of-type(3) {
+  text-align: right;
+}
+.idx_m5 .content .main .item img {
+  width: 383px;
+  height: 210px;
+  margin-bottom: 25px;
+}
+.idx_m5 .content .main .item .title {
+  display: block;
+  width: 350px;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.idx_m5 .content .main .item .title:hover {
+  color: #fd692c;
+}
+.idx_m5 .content .main .item .desc {
+  width: 95%;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #292f39;
+}
+.idx_m5 .content .main .item .desc a {
+  color: #2376e5;
+  font-weight: bold;
+}
+.idx_m5 .content .main .item .time {
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 44px;
+  color: #fd692c;
+  font-weight: bold;
+}
+.prod_banner {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  height: 320px;
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_banner.png') no-repeat center center;
+  background-size: cover;
+}
+.prod_banner .content {
+  width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 100px;
+  color: #292f39;
+}
+.prod_banner .content h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.prod_banner .content .desc {
+  font-size: 20px;
+  margin-top: 13px;
+}
+.prod_menu {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  background-color: white;
+}
+.prod_menu .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+.prod_menu .content ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(241, 244, 247, 0.5);
+}
+.prod_menu .content ul li {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: #292f39;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.prod_menu .content ul li.active {
+  border-bottom: 2px solid #fd692c;
+}
+.prod_menu.prod_menu_fixed30 {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.prod_menu.prod_menu_fixed60 {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.prod_main {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.prod_main .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 65px 0 85px;
+}
+.prod_main .content .cateTitle {
+  text-align: center;
+  font-size: 30px;
+  line-height: 80px;
+  color: white;
+}
+.prod_main .content .cateTitle:nth-of-type(1) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg1.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(2) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg2.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(3) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg3.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(4) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg4.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(5) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg5.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(6) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg6.png') no-repeat center center;
+}
+.prod_main .content .cateTitle:nth-of-type(7) {
+  background: url('https://pic.mairuan.com/WebSource/makeding/web/images2/prod_title_bg7.png') no-repeat center center;
+}
+.prod_main .content .wrapper {
+  color: #292f39;
+  padding: 50px 0;
+  text-align: center;
+}
+.prod_main .content .wrapper > div {
+  height: 245px;
+  margin-bottom: 50px;
+}
+.prod_main .content .wrapper .icon {
+  margin-bottom: 6px;
+}
+.prod_main .content .wrapper .title {
+  font-size: 26px;
+}
+.prod_main .content .wrapper .desc {
+  width: 65%;
+  height: 55px;
+  line-height: 26px;
+  margin: 15px auto 0;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.prod_main .content .wrapper .more {
+  display: inline-block;
+  font-size: 16px;
+  color: #fd692c;
+  margin-top: 35px;
+}
+.prod_main .content .allShow {
+  font-size: 30px;
+  text-align: center;
+}
+.prod_main .content .allShow i {
+  vertical-align: middle;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.prod_main .content .allProducts {
+  margin-top: 50px;
+}
+.prod_main .content .allProducts > div {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.prod_main .content .allProducts > div img {
+  width: 30%;
+}
+.prod_main .content .allProducts .title {
+  font-size: 18px;
+  line-height: 26px;
+  color: #292f39;
+  text-align: center;
+}
+.news_m1 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.news_m1 .content {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+.news_m1 .content ul {
+  margin: 20px 0;
+}
+.news_m1 .content ul li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-right: 80px;
+}
+.news_m1 .content ul li.active a {
+  color: #fd692c;
+}
+.news_m1 .content .searchWrapper {
+  position: absolute;
+  top: -14px;
+  right: 0;
+}
+.news_m1 .content .searchWrapper img.search {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.news_m1 .content .searchWrapper img.search:hover {
+  background-color: #f4f4f5;
+}
+.news_m1 .content .searchWrapper .searchForm {
+  width: 1200px;
+  height: 50px;
+  background-color: #f4f4f5;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+.news_m1 .content .searchWrapper .searchForm img.searchButton,
+.news_m1 .content .searchWrapper .searchForm i {
+  cursor: pointer;
+}
+.news_m1 .content .searchWrapper .searchForm input {
+  width: calc(100% - 100px);
+  border: 0;
+  line-height: 50px;
+  background-color: transparent;
+  margin-left: 50px;
+  font-size: 26px;
+  vertical-align: middle;
+}
+.news_m2 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.news_m2 .content {
+  width: 1200px;
+  margin: 0px auto;
+  font-size: 0;
+}
+.news_m2 .content .left {
+  display: inline-block;
+  width: 63%;
+  vertical-align: top;
+}
+.news_m2 .content .left > img {
+  width: 700px;
+  height: 388px;
+}
+.news_m2 .content .left .date {
+  padding: 23px 0 5px;
+}
+.news_m2 .content .left .title {
+  display: inline-block;
+  width: 700px;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: bold;
+}
+.news_m2 .content .right {
+  display: inline-block;
+  width: 37%;
+  vertical-align: top;
+}
+.news_m2 .content .right label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 15px;
+  color: #292f39;
+  margin-bottom: 20px;
+}
+.news_m2 .content .right .item {
+  margin-bottom: 30px;
+}
+.news_m2 .content .right .item img {
+  vertical-align: top;
+  width: 100%;
+}
+.news_m2 .content .right .item > div {
+  display: inline-block;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+.news_m2 .content .right .title {
+  display: inline-block;
+  width: 220px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+.news_m2 .content .right .title:hover {
+  text-decoration: underline;
+}
+.news_m2 .content .date {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #fd692c;
+}
+.news_m2 .content .title {
+  color: #292f39;
+}
+.news_m3 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 90px auto 0;
+}
+.news_m3 .content {
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+.news_m3 .content > img:first-child {
+  border-radius: 4px;
+}
+.news_m3 .content .player {
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+  cursor: pointer;
+}
+.news_m4 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.news_m4 .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 105px 0 0 0;
+}
+.news_m4 .content .title {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #292f39;
+}
+.news_m4 .content .main {
+  padding-top: 50px;
+}
+.news_m4 .content .main .item {
+  border-top: 1px solid #eee;
+  padding: 20px 0 32px;
+}
+.news_m4 .content .main .item > div:last-child {
+  width: 200px;
+  height: 110px;
+  overflow: hidden;
+  text-align: right;
+}
+.news_m4 .content .main .item img {
+  width: 176px;
+}
+.news_m4 .content .main .item a {
+  display: inline-block;
+  color: #2376e5;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.news_m4 .content .main .item_date {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #292f39;
+  opacity: 0.5;
+}
+.news_m4 .content .main .item_title {
+  font-size: 26px;
+  color: #292f39;
+  margin: 13px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.news_m4 .content .more {
+  display: block;
+  margin: 70px auto 120px;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.news_m4 .content .more i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.pos {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  background-color: #e9eaeb;
+}
+.pos .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 5px 0;
+}
+.pos .content a,
+.pos .content span {
+  font-size: 14px;
+  line-height: 26px;
+}
+.pos .content a:hover {
+  color: #fd692c;
+}
+.article {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 65px auto 0;
+}
+.article .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+.article .content img {
+  max-width: 800px;
+  height: auto;
+}
+.article .content .time {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fd692c;
+  margin-left: 180px;
+}
+.article .content .title {
+  font-size: 36px;
+  line-height: 46px;
+  color: #292f39;
+  margin-left: 180px;
+  margin-top: 10px;
+  padding-right: 180px;
+}
+.article .content .main {
+  font-size: 16px;
+  line-height: 30px;
+  color: #292f39;
+  margin-left: 180px;
+  margin-top: 40px;
+  padding-right: 180px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.article .content .main .image {
+  margin: 16px auto;
+}
+.article .content .main p {
+  display: block;
+  margin-bottom: 30px;
+}
+.article .content .main p a {
+  color: #fd692c;
+}
+.article .content .tag {
+  color: #292f39;
+  margin-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #eee;
+}
+.article .content .tag a {
+  display: inline-block;
+  font-size: 16px;
+  background-color: #e9eaeb;
+  padding: 0 5px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+}
+.article_other {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 50px auto 120px;
+}
+.article_other .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 180px;
+}
+.article_other .content .title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.article_other .content .main {
+  font-size: 0;
+  margin-top: 30px;
+}
+.article_other .content .main .left,
+.article_other .content .main .right {
+  display: inline-block;
+  vertical-align: top;
+}
+.article_other .content .main .right {
+  width: calc(100% - 180px);
+  padding: 0 50px 0 20px;
+}
+.article_other .content .main img {
+  width: 168px;
+  max-width: 100%;
+  height: 158px;
+}
+.article_other .content .main .time {
+  font-size: 16px;
+  color: #fd692c;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.article_other .content .main .new_title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.article_other .content .main .new_title:hover {
+  color: #292f39;
+  text-decoration: underline;
+}
+.search_m1 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  background-color: #f4f4f5;
+}
+.search_m1 .content {
+  width: 1200px;
+  margin: 0px auto;
+  font-size: 36px;
+  padding: 37px 0;
+}
+.search_m2 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.search_m2 .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+.search_m2 .content .item {
+  padding: 50px 0 40px;
+  border-bottom: 1px solid #eee;
+}
+.search_m2 .content .item .item_date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #292f39;
+  opacity: 0.5;
+}
+.search_m2 .content .item .item_title {
+  display: inline-block;
+  font-size: 26px;
+  margin: 5px 0 0 0;
+}
+.search_m2 .content .item .item_title span {
+  color: #fd692c;
+}
+.search_m2 .content .item:last-child {
+  border-bottom: none;
+}
+.search_m3 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.search_m3 .content {
+  width: 1200px;
+  margin: 90px auto 60px;
+}
+.search_m3 .content a {
+  display: inline-block;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+}
+.search_m3 .content a i {
+  font-weight: bold;
+}
+.about-company {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto 60px;
+}
+.about-company .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.about-company .content .title {
+  padding-bottom: 50px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.about-company .content .title + div {
+  font-size: 16px;
+  font-weight: 200;
+}
+.about-company .content .title + div p {
+  padding: 15px 0;
+}
+.about-company .content .right {
+  padding-left: 40px;
+}
+.about-company .content .right .wrapper {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #edeef0;
+}
+.about-company .content .right .wrapper > div {
+  display: inline-block;
+  width: 50%;
+}
+.about-company .content .right .wrapper > div .title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.about-dashiji {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+.about-dashiji .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+.about-dashiji .orange {
+  color: #ec6518;
+}
+.about-dashiji .dotl {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 50%;
+}
+.about-dashiji .dotl::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ec6518;
+  position: absolute;
+  top: 5px;
+  left: -7px;
+}
+.about-dashiji .dotr {
+  position: relative;
+  padding-right: 30px;
+  text-align: right;
+}
+.about-dashiji .dotr::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ec6518;
+  position: absolute;
+  top: 5px;
+  right: -7px;
+}
+.about-dashiji .bg_line {
+  background: url('https://pic.mairuan.com/WebSource/minitab/web/images/line.png') repeat-y center center;
+}
+.about-dashiji .year {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-dashiji .year > div {
+  font-size: 24px;
+}
+.about-dashiji .item {
+  width: 50%;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.about-dashiji .item > div {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.about-dashiji .right {
+  padding-left: 40px;
+}
+.about-dashiji .right .wrapper {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #edeef0;
+}
+.about-dashiji .right .wrapper > div {
+  display: inline-block;
+  width: 50%;
+}
+.about-dashiji .right .wrapper > div .title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.about-idea {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.about-idea .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+.about-idea .content .right {
+  padding-left: 40px;
+}
+.about-idea .content .right .wrapper {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #edeef0;
+}
+.about-idea .content .right .wrapper > div {
+  display: inline-block;
+  width: 50%;
+}
+.about-idea .content .right .wrapper > div .title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.about-achieve {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto 60px;
+}
+.about-achieve .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 40px;
+  overflow: hidden;
+}
+.about-achieve .content .main .item {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.about-achieve .content .main .item img {
+  width: 100%;
+  height: 180px;
+}
+.about-achieve .content .main .item .title {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-achieve .content .right {
+  padding-left: 40px;
+}
+.about-achieve .content .right .wrapper {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #edeef0;
+}
+.about-achieve .content .right .wrapper > div {
+  display: inline-block;
+  width: 50%;
+}
+.about-achieve .content .right .wrapper > div .title {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.about-join {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+  height: 260px;
+  background: url(//pic.mairuan.com/WebSource/makeding/web/images/joinBanner.png) no-repeat center center;
+}
+.about-join .content {
+  width: 1200px;
+  margin: 0px auto;
+}
+.about-join .content .title {
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+}
+.about-join .content .desc {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+.about-join-m2 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.about-join-m2 .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 100px 60px 0;
+}
+.about-join-m3 {
+  width: 100%;
+  max-width: 1920px;
+  min-width: 1200px;
+  margin: 0px auto 100px;
+}
+.about-join-m3 .content {
+  width: 1200px;
+  margin: 0px auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.about-join-m3 .content .aboutZP {
+  height: 36px;
+  text-align: left;
+  margin: 65px 0 21px;
+  font-size: 15px;
+}
+.about-join-m3 .content .aboutZP li {
+  width: 130px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.about-join-m3 .content .aboutZP li.active {
+  background: #F2680C;
+  color: #FFFFFF;
+  border-radius: 50px;
+}
+.about-join-m3 .content .main {
+  min-height: 210px;
+  text-align: center;
+  margin: 15px auto 21px;
+  font-size: 15px;
+  overflow: hidden;
+}
+.about-join-m3 .content .main ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-join-m3 .content .main ul li {
+  width: 23%;
+  text-align: left;
+  margin-top: 20px;
+  margin-right: 2%;
+}
+.about-join-m3 .content .main ul li div.joinPost {
+  background-color: #eee;
+  padding: 15px 18px;
+  cursor: pointer;
+}
+.about-join-m3 .content .main ul li div.joinPost i {
+  padding: 3px;
+  color: white;
+  background-color: #ccc;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.about-join-m3 .content .main ul li div.joinPost:hover {
+  color: #fd692c;
+}
+.about-join-m3 .content .main ul li div.joinPost:hover i {
+  background-color: #fd692c;
+}
+.about-open .layui-layer-content {
+  padding: 20px 50px;
+}
+.about-open .title1 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.about-open .list {
+  font-size: 13px;
+  margin: 8px 0;
+}
+.about-open .list span:first-child {
+  margin-right: 10px;
+}
+.about-open .title2 {
+  font-size: 15px;
+  margin: 27px auto 14px;
+}
+.about-open .email {
+  font-size: 15px;
+  margin-top: 31px;
+}
+.about-open .email i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fd692c;
+  margin-right: 10px;
+}
+.about-open .email label {
+  display: inline-block;
+  color: #3292ff;
+  margin-left: 10px;
+}
+.about-open .phone {
+  font-size: 15px;
+  margin-top: 16px;
+  padding-bottom: 40px;
+}
+.about-open .phone i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fd692c;
+  margin-right: 10px;
+}
+.about-open .phone label {
+  display: inline-block;
+  margin-left: 5px;
+}
+/*
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0px auto;
+
+
+    width: 1200px;
+    margin: 0px auto;
+
+*/

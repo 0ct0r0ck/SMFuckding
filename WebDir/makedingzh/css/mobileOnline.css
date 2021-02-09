@@ -1,0 +1,1159 @@
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 10vw;
+  }
+  header {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    height: 1.333rem;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  header .content {
+    width: 100%;
+    position: relative;
+  }
+  header .content h1 {
+    height: 0.667rem;
+    font-size: 0.16rem;
+    padding-top: 0.6rem;
+    padding-left: 1.467rem;
+    margin-top: 0.08rem;
+  }
+  header .content h1::after {
+    content: '';
+    width: 2.933rem;
+    height: 0.747rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/logo.png') no-repeat center center;
+    background-size: 100%;
+    top: 0.2rem;
+    left: 0.4rem;
+  }
+  header .content .layui-nav {
+    display: none;
+  }
+  header .content .layui-nav .layui-nav-item {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+  }
+  header .content .layui-nav .layui-nav-item a {
+    font-size: 16px;
+    color: #292f39;
+  }
+  header .content .layui-nav .layui-nav-item a:hover {
+    color: #292f39;
+  }
+  header .content .layui-nav .layui-nav-item .layui-nav-child {
+    top: 60px;
+  }
+  header .content .layui-nav .list span {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: all 0.5s;
+  }
+  header .content .layui-nav .list .rotate {
+    transform: rotate(180deg);
+  }
+  header .content .language {
+    text-align: left;
+    position: fixed;
+    left: 17vw;
+    bottom: 15vh;
+    z-index: 10;
+  }
+  header .content .language label {
+    display: none;
+  }
+  header .content .language ul {
+    display: block !important;
+    margin-left: 0;
+  }
+  header .content .language ul li {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+  header .content .language ul li > a {
+    display: none;
+  }
+  header .content .language ul li dl {
+    display: block !important;
+    box-shadow: none;
+    border: 0;
+  }
+  header .content .language ul li dd {
+    display: inline-block;
+    height: 0.667rem;
+    line-height: 0.667rem;
+    text-align: left;
+  }
+  header .content .language ul li dd a {
+    font-size: 0.373rem !important;
+    padding: 0 0.267rem;
+  }
+  header .content .language ul li dd:first-child {
+    border-right: 1px solid #eee;
+  }
+  header .content .menu {
+    display: block;
+    width: 0.533rem;
+    height: 0.533rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_menu.png') no-repeat center center;
+    background-size: cover;
+    transition: all 0.2s;
+    position: absolute;
+    top: 0.4rem;
+    right: 0.533rem;
+    z-index: 9;
+  }
+  header .content .menu.open {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_menu_close.png') no-repeat center center;
+  }
+  header .content .menu.open + .layui-nav {
+    display: block !important;
+    width: 90vw;
+    height: 100vh;
+    padding-top: 1.6rem;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: -20vw 0 0 rgba(0, 0, 0, 0.5);
+  }
+  header .content .menu.open + .layui-nav li {
+    display: block;
+  }
+  header .content .menu.open + .layui-nav .layui-nav-child {
+    display: block !important;
+    border: 0;
+    box-shadow: none;
+    padding-left: 0.533rem;
+    font-weight: normal;
+    top: 1.067rem;
+  }
+  header .content .menu.open::after {
+    content: '';
+    width: 2.507rem;
+    height: 0.627rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_logo.png') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: -70vw;
+    z-index: 0;
+  }
+  footer {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    position: relative;
+  }
+  footer .content {
+    width: 100%;
+    padding: 1.067rem 0.533rem 4rem;
+    text-align: center;
+  }
+  footer .content .logo {
+    color: #ec6517;
+    vertical-align: middle;
+  }
+  footer .content .logo img {
+    display: block;
+    width: 40%;
+    margin: 0 auto 0.4rem;
+  }
+  footer .content .copyright {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0.467rem;
+    text-align: center;
+    position: absolute;
+    bottom: -11rem;
+    left: 0;
+  }
+  footer .content .copyright > div:first-child {
+    margin-bottom: 0.133rem;
+  }
+  footer .content .copyright a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #636e7d;
+  }
+  footer .content .copyright a:hover {
+    color: #fd692c;
+  }
+  footer .content .copyright span {
+    display: block;
+    margin: 0 auto;
+  }
+  footer .content .middle {
+    text-align: center;
+    margin-top: 0.667rem;
+  }
+  footer .content .middle a {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.347rem;
+    line-height: 0.747rem;
+    padding: 0 0.533rem;
+  }
+  footer .content .middle a:nth-child(-n+2) {
+    border-right: 0;
+  }
+  footer .content .right {
+    color: white;
+  }
+  footer .content .right > div {
+    text-align: center;
+  }
+  footer .content .right .item {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  footer .content .right label {
+    font-size: 0.347rem;
+    text-align: center;
+  }
+  footer .content .right ul {
+    margin-top: 0.133rem;
+    padding-top: 0.267rem;
+  }
+  footer .content .right ul li {
+    font-size: 0.32rem;
+    line-height: 0.613rem;
+    font-weight: 200;
+  }
+  .idx_m1 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    height: 14.27rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_idx_banner_v2.png') no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 1.333rem;
+  }
+  .idx_m1 .content {
+    display: none;
+    width: 100%;
+    line-height: 1.6rem;
+    font-size: 1.147rem;
+    padding: 1.067rem 0.533rem 0;
+  }
+  .idx_m1 .bottom {
+    width: 90vw;
+  }
+  .idx_m1 .bottom > div {
+    width: 100%;
+    height: 2.533rem;
+    padding: 0.533rem 0 0 0.533rem;
+    line-height: 0.52rem;
+  }
+  .idx_m1 .bottom > div .title {
+    font-size: 0.48rem;
+  }
+  .idx_m1 .bottom > div .desc {
+    font-size: 0.347rem;
+    margin-top: 0.2rem;
+  }
+  .idx_m1 .bottom .left {
+    background-size: 100% 100%;
+  }
+  .idx_m1 .bottom .middle {
+    background-size: 100% 100%;
+  }
+  .idx_m1 .bottom .right {
+    background-size: 100% 100%;
+  }
+  .idx_m2 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .idx_m2 .content {
+    width: 100%;
+    padding: 1.467rem 0.533rem 1.6rem;
+  }
+  .idx_m2 .content h2 {
+    font-size: 0.667rem;
+  }
+  .idx_m2 .content .desc {
+    width: 100%;
+    margin: 0.4rem auto 0;
+    font-size: 0.347rem;
+    line-height: 0.52rem;
+  }
+  .idx_m2 .content a {
+    font-size: 0.347rem;
+    margin-top: 0.467rem;
+  }
+  .idx_m3 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    background-color: #f8f9fb;
+    padding-bottom: 1.6rem;
+  }
+  .idx_m3 .content {
+    width: 100%;
+    padding: 1.133rem 0.533rem 0.667rem;
+  }
+  .idx_m3 .content h2 {
+    font-size: 0.667rem;
+  }
+  .idx_m3 .content .desc {
+    width: 100%;
+    margin: 0.4rem auto 0;
+    font-size: 0.347rem;
+    line-height: 0.52rem;
+  }
+  .idx_m3 .content a {
+    font-size: 0.347rem;
+    margin-top: 0.48rem;
+  }
+  .idx_m3 .scroll {
+    height: 6.667rem;
+    background-color: transparent;
+  }
+  .idx_m3 .scroll .item {
+    display: inline-block;
+    width: 5rem;
+    height: 6.133rem;
+    margin-left: 0.267rem;
+    background-size: cover !important;
+    position: relative;
+  }
+  .idx_m3 .scroll .item .wrapper {
+    width: 100%;
+    height: 45%;
+    padding: 0.667rem 0.6rem 0;
+    left: 0;
+  }
+  .idx_m3 .scroll .item .wrapper .icon {
+    width: 22%;
+    position: absolute;
+    top: -20%;
+    left: 10%;
+  }
+  .idx_m3 .scroll .item .wrapper .title {
+    font-size: 0.427rem;
+  }
+  .idx_m3 .scroll .item .wrapper .desc {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    margin-top: 0.133rem;
+  }
+  .idx_m4 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    height: 15.6rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_idx_number.png') no-repeat center center;
+    background-size: 100%;
+  }
+  .idx_m4 .content {
+    width: 100%;
+    padding: 1.333rem 0.533rem 0;
+  }
+  .idx_m4 .content h2 {
+    font-size: 0.667rem;
+  }
+  .idx_m4 .content .desc {
+    width: 100%;
+    margin: 0.24rem auto 0;
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+  }
+  .idx_m4 .content .main {
+    justify-content: center ;
+    flex-wrap: wrap;
+    font-weight: normal;
+    margin-top: 1.2rem;
+    padding: 0;
+  }
+  .idx_m4 .content .main .item {
+    width: 100%;
+    margin-bottom: 1.6rem;
+  }
+  .idx_m4 .content .main .top {
+    font-size: 0.827rem;
+  }
+  .idx_m4 .content .main .title {
+    font-size: 0.693rem;
+    margin-top: 0.267rem;
+  }
+  .idx_m5 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .idx_m5 .content {
+    width: 100%;
+    padding: 1.467rem 0.533rem 0.8rem;
+  }
+  .idx_m5 .content h2 {
+    font-size: 0.667rem;
+  }
+  .idx_m5 .content .category {
+    margin-top: 0.267rem;
+  }
+  .idx_m5 .content .category li {
+    font-size: 0.48rem;
+    margin-right: 0.533rem;
+  }
+  .idx_m5 .content .main {
+    margin-top: 0.8rem;
+  }
+  .idx_m5 .content .main > div {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .idx_m5 .content .main > div .item {
+    width: 100%;
+  }
+  .idx_m5 .content .main > div .item:nth-of-type(1) {
+    text-align: left;
+  }
+  .idx_m5 .content .main > div .item:nth-of-type(2) {
+    text-align: left;
+  }
+  .idx_m5 .content .main > div .item:nth-of-type(3) {
+    text-align: left;
+  }
+  .idx_m5 .content .main .item {
+    margin-bottom: 1.333rem;
+  }
+  .idx_m5 .content .main .item img {
+    margin-bottom: 0.333rem;
+  }
+  .idx_m5 .content .main .item .title {
+    display: block;
+    text-align: left;
+    padding-left: 0;
+    font-size: 0.48rem;
+  }
+  .idx_m5 .content .main .item .desc {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0.333rem;
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+  }
+  .idx_m5 .content .main .item .time {
+    display: block;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0.533rem;
+  }
+  .prod_banner {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    height: 4.8rem;
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_banner.png') no-repeat center center;
+    background-size: 100%;
+    margin-top: 1.333rem;
+  }
+  .prod_banner .content {
+    width: 100%;
+    padding: 1.333rem 0.533rem 0;
+  }
+  .prod_banner .content h2 {
+    font-size: 0.667rem;
+  }
+  .prod_banner .content .desc {
+    font-size: 0.347rem;
+    margin-top: 0.2rem;
+  }
+  .prod_menu {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .prod_menu .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .prod_menu .content ul {
+    width: 100%;
+    display: block;
+    height: 1.067rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .prod_menu .content ul li {
+    display: inline-block;
+    height: 1.067rem;
+    line-height: 1.067rem;
+    font-size: 0.347rem;
+    margin-right: 0.4rem;
+  }
+  .prod_main {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .prod_main .content {
+    width: 100%;
+    padding: 0.867rem 0.533rem 1.133rem;
+  }
+  .prod_main .content .cateTitle {
+    font-size: 0.4rem;
+    line-height: 1.067rem;
+    background-size: cover !important;
+  }
+  .prod_main .content .cateTitle:nth-of-type(1) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg1.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(2) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg2.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(3) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg3.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(4) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg4.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(5) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg5.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(6) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg6.png') no-repeat center center;
+  }
+  .prod_main .content .cateTitle:nth-of-type(7) {
+    background: url('//pic.mairuan.com/WebSource/makeding/web/images2/m_prod_title_bg7.png') no-repeat center center;
+  }
+  .prod_main .content .wrapper {
+    padding: 0.667rem 0;
+  }
+  .prod_main .content .wrapper > div {
+    height: 4rem;
+    margin-bottom: 0.667rem;
+  }
+  .prod_main .content .wrapper > div img {
+    width: 30%;
+  }
+  .prod_main .content .wrapper .icon {
+    margin-bottom: 0.133rem;
+  }
+  .prod_main .content .wrapper .title {
+    font-size: 0.347rem;
+  }
+  .prod_main .content .wrapper .desc {
+    width: 80%;
+    height: auto;
+    line-height: 0.48rem;
+    margin: 0.2rem auto 0;
+    font-size: 0.347rem;
+  }
+  .prod_main .content .wrapper .more {
+    display: inline-block;
+    font-size: 0.347rem;
+    color: #fd692c;
+    margin-top: 0.467rem;
+  }
+  .prod_main .content .allShow {
+    font-size: 0.4rem;
+  }
+  .prod_main .content .allShow i {
+    margin-left: 0.133rem;
+  }
+  .prod_main .content .allProducts {
+    margin-top: 0.667rem;
+  }
+  .prod_main .content .allProducts > div {
+    margin-bottom: 0.467rem;
+  }
+  .prod_main .content .allProducts > div img {
+    width: 50%;
+  }
+  .prod_main .content .allProducts .title {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .news_m1 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin-top: 1.6rem;
+  }
+  .news_m1 .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .news_m1 .content ul {
+    margin: 0.267rem 0;
+    padding: 0.133rem 0;
+  }
+  .news_m1 .content ul li {
+    font-size: 0.347rem;
+    line-height: 0.347rem;
+    margin-right: 0.933rem;
+  }
+  .news_m1 .content .searchWrapper {
+    position: absolute;
+    top: -0.133rem;
+    right: 0.4rem;
+  }
+  .news_m1 .content .searchWrapper img.search {
+    width: 50%;
+    padding: 0.2rem;
+    background-color: #f4f4f5;
+  }
+  .news_m1 .content .searchWrapper .searchForm {
+    width: 92vw;
+    height: 1.067rem;
+    padding: 0 10px;
+  }
+  .news_m1 .content .searchWrapper .searchForm input {
+    width: calc(100% - 1.467rem);
+    border: 0;
+    line-height: 1.067rem;
+    background-color: transparent;
+    margin-left: 0.267rem;
+    font-size: 0.48rem;
+    vertical-align: middle;
+  }
+  .news_m2 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .news_m2 .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .news_m2 .content .left {
+    display: block;
+    width: 100%;
+  }
+  .news_m2 .content .left img {
+    width: 100%;
+    height: auto;
+  }
+  .news_m2 .content .left .date {
+    padding: 0.267rem 0 0.067rem;
+  }
+  .news_m2 .content .left .title {
+    width: 100%;
+    font-size: 0.48rem;
+    line-height: 0.613rem;
+  }
+  .news_m2 .content .right {
+    display: block;
+    width: 100%;
+    margin-top: 1.067rem;
+  }
+  .news_m2 .content .right label {
+    font-size: 0.4rem;
+    line-height: 0.267rem;
+    margin-bottom: 0.267rem;
+  }
+  .news_m2 .content .right .item {
+    margin-bottom: 0.4rem;
+  }
+  .news_m2 .content .right .item img {
+    width: 100%;
+    height: auto;
+  }
+  .news_m2 .content .right .item > div {
+    display: inline-block;
+    padding-left: 0.533rem;
+    padding-top: 0.267rem;
+  }
+  .news_m2 .content .right .title {
+    display: inline-block;
+    width: 55vw;
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+  }
+  .news_m2 .content .date {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+  }
+  .news_m3 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 1.2rem auto 0;
+  }
+  .news_m3 .content {
+    width: 100%;
+    padding: 0 0.533rem;
+    position: relative;
+  }
+  .news_m3 .content > img:first-child {
+    width: 100%;
+  }
+  .news_m3 .content .player {
+    width: 10%;
+    position: absolute;
+    right: 1.067rem;
+    bottom: 0.4rem;
+    cursor: pointer;
+  }
+  .news_m4 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .news_m4 .content {
+    width: 100%;
+    padding: 1.333rem 0.533rem 0;
+  }
+  .news_m4 .content .title {
+    font-size: 0.48rem;
+    line-height: 0.347rem;
+  }
+  .news_m4 .content .main {
+    padding-top: 0.667rem;
+  }
+  .news_m4 .content .main .item {
+    padding: 0.267rem 0 0.4rem;
+  }
+  .news_m4 .content .main .item a {
+    font-size: 0.347rem;
+    margin-top: 0.067rem;
+  }
+  .news_m4 .content .main .item_date {
+    font-size: 0.347rem;
+    line-height: 0.347rem;
+  }
+  .news_m4 .content .main .item_title {
+    font-size: 0.4rem;
+    line-height: 0.347rem;
+    margin: 0.173rem 0;
+  }
+  .news_m4 .content .more {
+    margin: 0.933rem auto 1.6rem;
+    font-size: 0.347rem;
+    line-height: 0.347rem;
+  }
+  .news_m4 .content .more i {
+    margin-left: 0.133rem;
+    font-size: 0.187rem;
+  }
+  .pos {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .pos .content {
+    width: 100%;
+    padding: 0.133rem 0.533rem;
+    margin-top: 1.333rem;
+  }
+  .pos .content a,
+  .pos .content span {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+  }
+  .article {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 0.867rem auto 0;
+  }
+  .article .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .article .content img {
+    max-width: 100%;
+    height: auto;
+  }
+  .article .content .time {
+    font-size: 0.347rem;
+    margin-left: 0;
+  }
+  .article .content .title {
+    font-size: 0.48rem;
+    line-height: 0.613rem;
+    margin-left: 0;
+    margin-top: 0.133rem;
+    padding-right: 0;
+  }
+  .article .content .main {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    margin-left: 0;
+    margin-top: 0.533rem;
+    padding-right: 0;
+    padding-bottom: 0.533rem;
+  }
+  .article .content .main .image {
+    margin: 0.2rem auto;
+  }
+  .article .content .main p {
+    margin-bottom: 0.4rem;
+  }
+  .article .content .tag {
+    color: #292f39;
+    margin-left: 0;
+    padding-right: 0;
+    margin-bottom: 1.333rem;
+  }
+  .article .content .tag a {
+    font-size: 0.347rem;
+    margin-right: 0.133rem;
+    margin-bottom: 1.333rem;
+  }
+  .article_other {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 0.667rem auto 1.6rem;
+  }
+  .article_other .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .article_other .content .title {
+    font-size: 0.48rem;
+  }
+  .article_other .content .main {
+    font-size: 0;
+    margin-top: 0.4rem;
+  }
+  .article_other .content .main > div {
+    margin-bottom: 0.667rem;
+  }
+  .article_other .content .main .right {
+    width: calc(100% - 2.4rem);
+    padding: 0 0.667rem 0 0.267rem;
+  }
+  .article_other .content .main img {
+    width: 2.267rem;
+    height: 2.133rem;
+  }
+  .article_other .content .main .time {
+    font-size: 0.347rem;
+    padding-top: 0.067rem;
+  }
+  .article_other .content .main .new_title {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    margin-top: 0.133rem;
+  }
+  .search_m1 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin-top: 1.333rem;
+  }
+  .search_m1 .content {
+    width: 100%;
+    padding: 0.467rem 0.533rem;
+    font-size: 0.48rem;
+  }
+  .search_m2 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .search_m2 .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .search_m2 .content .item {
+    padding: 0.667rem 0 0.533rem;
+  }
+  .search_m2 .content .item .item_date {
+    font-size: 0.32rem;
+  }
+  .search_m2 .content .item .item_title {
+    font-size: 0.4rem;
+  }
+  .search_m3 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .search_m3 .content {
+    width: 100%;
+    margin: 0.667rem auto 1.333rem;
+    padding: 0 0.533rem;
+  }
+  .search_m3 .content a {
+    font-size: 0.347rem;
+  }
+  .about-company {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 1.333rem auto 0.8rem;
+  }
+  .about-company .content {
+    width: 100%;
+    padding: 0.533rem 0.533rem 0;
+  }
+  .about-company .content .title {
+    padding-bottom: 0.667rem;
+    font-size: 0.453rem;
+  }
+  .about-company .content .title + div {
+    font-size: 0.347rem;
+  }
+  .about-company .content .title + div p {
+    padding: 0.2rem 0;
+  }
+  .about-company .content .right {
+    display: none;
+  }
+  .about-dashiji {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .about-dashiji .content {
+    width: 100%;
+    padding: 0.667rem 0.533rem 0;
+  }
+  .about-dashiji .orange {
+    color: #ec6518;
+  }
+  .about-dashiji .dotl {
+    position: relative;
+    padding-left: 15px;
+    margin-left: 50%;
+  }
+  .about-dashiji .dotl::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ec6518;
+    position: absolute;
+    top: 5px;
+    left: -7px;
+  }
+  .about-dashiji .dotr {
+    position: relative;
+    padding-right: 15px;
+    text-align: right;
+  }
+  .about-dashiji .dotr::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ec6518;
+    position: absolute;
+    top: 5px;
+    right: -7px;
+  }
+  .about-dashiji .bg_line {
+    background: url('//pic.mairuan.com/WebSource/minitab/web/images/line.png') repeat-y center center;
+  }
+  .about-dashiji .year {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about-dashiji .year > div {
+    font-size: 24px;
+  }
+  .about-dashiji .item {
+    width: 50%;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .about-dashiji .item > div {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .about-dashiji .right {
+    display: none;
+  }
+  .about-idea {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin-top: 1.333rem;
+  }
+  .about-idea .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .about-idea .content .right {
+    display: none;
+  }
+  .about-achieve {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 1.333rem auto 0.8rem;
+  }
+  .about-achieve .content {
+    width: 100%;
+    padding: 0 0.533rem;
+    padding-top: 0.533rem;
+  }
+  .about-achieve .content .main .item {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 0.4rem;
+  }
+  .about-achieve .content .main .item img {
+    width: 100%;
+    height: auto;
+  }
+  .about-achieve .content .main .item .title {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.347rem;
+  }
+  .about-achieve .content .right {
+    display: none;
+  }
+  .about-join {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    height: 3.467rem;
+    background: url(//pic.mairuan.com/WebSource/makeding/web/images/joinBanner.png) no-repeat center center;
+    background-size: cover;
+    margin-top: 1.333rem;
+  }
+  .about-join .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .about-join .content .title {
+    font-size: 0.533rem;
+    line-height: 0.533rem;
+    padding-top: 1.333rem;
+  }
+  .about-join .content .desc {
+    font-size: 0.347rem;
+    line-height: 0.48rem;
+    padding-top: 0.267rem;
+  }
+  .about-join-m2 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+  }
+  .about-join-m2 .content {
+    width: 100%;
+    padding: 1.333rem 0.533rem 0;
+  }
+  .about-join-m3 {
+    width: 100%;
+    max-width: 767px;
+    min-width: 320px;
+    margin: 0px auto 1.333rem;
+  }
+  .about-join-m3 .content {
+    width: 100%;
+    padding: 0 0.533rem;
+  }
+  .about-join-m3 .content .aboutZP {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 0.8rem;
+    margin: 0.867rem 0 0.267rem;
+    font-size: 0.347rem;
+  }
+  .about-join-m3 .content .aboutZP li {
+    width: 2.667rem;
+    height: 0.667rem;
+    line-height: 0.667rem;
+  }
+  .about-join-m3 .content .main {
+    min-height: 210px;
+    text-align: center;
+    margin: 0.2rem auto 0.267rem;
+    font-size: 0.347rem;
+  }
+  .about-join-m3 .content .main ul li {
+    width: 48%;
+    margin-top: 0.267rem;
+    margin-right: 2%;
+  }
+  .about-join-m3 .content .main ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .about-join-m3 .content .main ul li div.joinPost {
+    padding: 0.2rem 0.267rem;
+  }
+  .about-join-m3 .content .main ul li div.joinPost i {
+    font-size: 0.267rem;
+    margin-right: 0;
+  }
+  .about-open {
+    width: 96vw !important;
+    height: 90vh !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .about-open .layui-layer-content {
+    padding: 0.267rem 0.667rem;
+  }
+  .about-open .title1 {
+    font-size: 0.347rem;
+    margin-bottom: 0.267rem;
+  }
+  .about-open .list {
+    font-size: 0.293rem;
+    margin: 0.133rem 0;
+  }
+  .about-open .list span:first-child {
+    margin-right: 0.133rem;
+  }
+  .about-open .title2 {
+    font-size: 0.347rem;
+    margin: 0.333rem auto 0.2rem;
+  }
+  .about-open .email {
+    font-size: 0.347rem;
+    margin-top: 0.4rem;
+  }
+  .about-open .email i {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.133rem;
+  }
+  .about-open .email label {
+    margin-left: 0.133rem;
+  }
+  .about-open .phone {
+    font-size: 0.347rem;
+    margin-top: 0.2rem;
+    padding-bottom: 0.533rem;
+  }
+  .about-open .phone i {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-right: 0.133rem;
+  }
+  .about-open .phone label {
+    margin-left: 0.067rem;
+  }
+}
+/*
+        width: 100%;
+        max-width: 767px;
+        min-width: 320px;
+
+
+        width: 100%;
+        padding: 0 0.533rem;
+
+
+*/
