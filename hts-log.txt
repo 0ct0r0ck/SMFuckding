@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 08 Feb 2021 21:06:15 at https://www.makeding.com +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+(winhttrack -qwr20%e0C2%Pn%s%uN100%I0c8J16384R3H0%kf2A2500000%f#f -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150" -%l zh https://www.makeding.com -O1 "C:\My Websites\mkd" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:06:15	Warning: 	* security warning: maximum bandwidth limited to 250000 to avoid server overload
+21:06:16	Warning: 	Note: due to https://www.makeding.com remote robots.txt rules, links beginning with these path will be forbidden: /*.php$, /*?*, /Application/, /Public/, /ThinkPHP/, /WebDir/ (see in the options to disable this)
+21:06:30	Error: 	"Not Found" (404) at link https://cdn.mairuan.com/cdn/mairuan/mairuan1.1/images/menu/gou_1.png (from https://cdn.mairuan.com/cdn/mairuan/mairuan1.1/css/menu_mr.css?v=1.0.6)
+
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 2 seconds : 258 links scanned, 255 files written (28349787 bytes overall), 79 files updated [4539062 bytes received at 12538 bytes/sec], 1219584 bytes transferred using HTTP compression in 34 files, ratio 31%, 1.6 requests per connection
+(1 errors, 2 warnings, 0 messages)
