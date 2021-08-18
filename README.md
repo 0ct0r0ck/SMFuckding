@@ -11,7 +11,7 @@
 目前完成情况：
 - [x] Main
 - [ ] Products
-- [ ] About
+- [x] About
 - [ ] Achieve
 - [ ] Event
 - [ ] Idea
