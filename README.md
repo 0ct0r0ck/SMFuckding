@@ -12,6 +12,7 @@
 - [x] Main
 - [x] Products
 - [x] About
+- [x] Aboutus
 - [ ] Achieve
 - [ ] Event
 - [ ] Idea
