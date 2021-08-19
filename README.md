@@ -14,7 +14,7 @@
 - [x] About
 - [x] Aboutus
 - [ ] Achieve
-- [ ] Event
+- [x] Event
 - [ ] Idea
 
 没有License，~~别问为啥咱也不懂不过爬过来的网站咱也没版权啊~~
